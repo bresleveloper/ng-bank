@@ -1,7 +1,11 @@
 # NgBank
 
 # Git Actions
-* clone repo - `git clone reourl`  
+* clone repo 
+    * `git clone <reourl>`  
+    * `dir`  
+    * `cd <dirname>`  
+    * `npm install`  
 * update form cloud - `git pull`  
 * push into cloud repo 
     * `git add .`  
