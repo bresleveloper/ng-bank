@@ -4,13 +4,12 @@
 
 ## Entities
 
-### User
+### BankUser
 
 User Properties:
 * id
 * FirstName
 * LastName
-* AccountsList
 * UserName
 * Password
 
@@ -18,6 +17,7 @@ User Properties:
 
 Account Properties:
 * id
+* BankUserId
 * Name
 * Balance
 
