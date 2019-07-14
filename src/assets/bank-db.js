@@ -17,3 +17,6 @@ window.bank_accounts = [
     { id:7, BankUserId:14, Name:"knife", Balance:-9 },
 ]
 
+window.bank_actions = [
+]
+
