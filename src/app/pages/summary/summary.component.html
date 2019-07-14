@@ -1,1 +1,23 @@
 <p>summary works!</p>
+
+
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>BankUserId</th>
+            <th>Name</th>
+            <th>Balance</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let acc of accounts">
+            <td>{{acc.id}}</td>
+            <td>{{acc.BankUserId}}</td>
+            <td>{{acc.Name}}</td>
+            <td>{{acc.Balance}}</td>
+        </tr>
+    </tbody>
+</table>
+

@@ -17,6 +17,9 @@ export class LoginComponent implements OnInit {
 
   login(u:string, p:string):void{
     let bu:BankUser = this.db.loginToAccount(u, p)
+    if (!bu) {
+      return
+    }
     this.router.navigateByUrl('summary/' + bu.id)
   }
 

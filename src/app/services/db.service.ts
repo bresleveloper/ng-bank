@@ -22,4 +22,8 @@ export class DbService {
     return this.users.find(bu => bu.UserName == u && bu.Password == p)
   }
 
+  getAccountsById(_BankUserId:number):Account[]{
+    return this.accounts.filter(acc => acc.BankUserId == _BankUserId)
+  }
+
 }
