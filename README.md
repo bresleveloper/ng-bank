@@ -16,6 +16,8 @@
 
 ## Entities
 
+To create an entity `ng generate class model/bank-user`, ect.
+
 ### BankUser
 
 User Properties:
@@ -48,7 +50,11 @@ We will save the data as local files in out repo's unde `assets`.
 We will create a module that will enable to save easily.  
 At git push data will be saved to the could (github).  
 
+To create db right click on `assets` and make new file `bank-db.js`
+
 ## App Flow
+
+To create an entity `ng generate component pages/login`, ect.
 
 ### Login Page
 
