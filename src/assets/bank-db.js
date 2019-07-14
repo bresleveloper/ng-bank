@@ -10,10 +10,10 @@ window.bank_users = [
 window.bank_accounts = [
     { id:1, BankUserId:3, Name:"odef vashav", Balance:5000000 },
     { id:2, BankUserId:3, Name:"savings", Balance:55000000 },
-    { id:3, BankUserId:4, Name:"rock", Balance:55000000 },
-    { id:4, BankUserId:5, Name:"breslev", Balance:55000000 },
-    { id:5, BankUserId:6, Name:"walker", Balance:55000000 },
-    { id:6, BankUserId:13, Name:"voilet", Balance:55000000 },
-    { id:7, BankUserId:14, Name:"knife", Balance:55000000 },
+    { id:3, BankUserId:4, Name:"rock", Balance:135.5 },
+    { id:4, BankUserId:5, Name:"breslev", Balance:550000000 },
+    { id:5, BankUserId:6, Name:"walker", Balance:340.04 },
+    { id:6, BankUserId:13, Name:"voilet", Balance:15 },
+    { id:7, BankUserId:14, Name:"knife", Balance:-9 },
 ]
 
