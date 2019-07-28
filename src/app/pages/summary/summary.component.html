@@ -12,7 +12,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let acc of accounts">
+        <tr *ngFor="let acc of accounts" routerLink="/actions-summary/{{acc.id}}">
             <td>{{acc.id}}</td>
             <td>{{acc.BankUserId}}</td>
             <td>{{acc.Name}}</td>

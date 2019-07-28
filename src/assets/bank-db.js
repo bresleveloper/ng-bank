@@ -18,5 +18,8 @@ window.bank_accounts = [
 ]
 
 window.bank_actions = [
+    { id:1, AccountId:1, Type : 'Income', Amount:5003 },
+    { id:2, AccountId:1, Type : 'Outcome', Amount:5002 },
+    { id:3, AccountId:1, Type : 'Loan', Amount:5001 },
 ]
 

@@ -26,4 +26,10 @@ export class DbService {
     return this.accounts.filter(acc => acc.BankUserId == _BankUserId)
   }
 
+  
+  getAccountsActionsByAccountId(_AccountId:number):AccountAction[]{
+    return this.actions.filter(a => a.AccountId == _AccountId)
+  }
+
+
 }
